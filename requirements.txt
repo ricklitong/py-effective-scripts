@@ -1,0 +1,4 @@
+pyscreenshot==2.2
+pynput==1.6.8
+pyperclip==1.8.0
+PyQt5==5.15.0
