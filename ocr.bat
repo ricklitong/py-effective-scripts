@@ -1,0 +1,1 @@
+cd C:\Dev\quick-scripts & conda activate base & python ocr.py
