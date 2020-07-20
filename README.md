@@ -5,7 +5,7 @@ Effective tools written with Python. Include textOCR, clipboard monitor and scre
 
 ##### 2020.07
 
-- *ocr.py* is an easy tool for taking screenshot and recognize the texts in the image, with Baidu OCR API.
+- *ocr.py* is an easy tool for taking screenshot and recognize the texts in the image, with Baidu OCR API. With the program running, you can easily take a screenshot by 
 
 ```python
 pip install -U requirements.txt
