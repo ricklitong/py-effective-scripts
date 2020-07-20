@@ -1,0 +1,4 @@
+/screenshot/
+__pycache__
+.vscode
+*.bat
