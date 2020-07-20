@@ -29,7 +29,7 @@ else:
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-API_KEY = 'Ctrv9Saf2cB4ipA90Dq4b5nB'
+API_KEY = 'Ctrv9Saf2cB4ipA90Dq4b5nB' # 使用数量超限后可以自己申请百度OCR平台的KEY
 
 SECRET_KEY = '22IAhNOm1NIdVF0OBGPGpQFtNuhfMD9c'
 
@@ -42,7 +42,8 @@ OCR_URL = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"
 TOKEN_URL = 'https://aip.baidubce.com/oauth/2.0/token'
 
 # Image存储路径
-IMAGE_DIR = Path.mkdir(r'./screenshot/',exist_ok=True)
+path = Path(r'./screenshot/')
+IMAGE_DIR = path.mkdir(exist_ok=True)
 
 """
     获取token
