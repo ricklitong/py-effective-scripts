@@ -7,6 +7,7 @@ import time
 import pyperclip
 from PyQt5.QtWidgets import QApplication
 from screenshot import ScreenShot,KeyboardListener
+from pathlib import Path
 
 # 保证兼容python2以及python3
 IS_PY3 = sys.version_info.major == 3
@@ -40,6 +41,8 @@ OCR_URL = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"
 """  TOKEN start """
 TOKEN_URL = 'https://aip.baidubce.com/oauth/2.0/token'
 
+# Image存储路径
+IMAGE_DIR = Path.mkdir(r'./screenshot/',exist_ok=True)
 
 """
     获取token
